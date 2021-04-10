@@ -25,7 +25,7 @@ The data will then be loaded to the tables created and can be tested using the `
 ## Database Architecture
 > “Data that is loved tends to survive.” - _Kurt Bollacker_
 
-![A](Images/Architecture copy.png)
+![A](https://github.com/asonthalia/Sparkify-Data-Modelling-With-Postgres/Images/Architecture%20copy.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
