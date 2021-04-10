@@ -26,7 +26,7 @@ The data will then be loaded to the tables created and can be tested using the `
 > “Data that is loved tends to survive.” - _Kurt Bollacker_
 
 ![A](https://github.com/asonthalia/Sparkify-Data-Modelling-With-Postgres/blob/472ebd15c8991b3b680bec178fd69b2dd728eb88/Images/Architecture%20copy.png)
-Created using ![Creatly](https://app.creately.com). Sorry for the attribute stacking in the ```SONGPLAYS``` table, creately only allows for 60 elements in their free version!
+Created using [Creatly!](https://app.creately.com). Sorry for the attribute stacking in the ```SONGPLAYS``` table, creately only allows for 60 elements in their free version!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
