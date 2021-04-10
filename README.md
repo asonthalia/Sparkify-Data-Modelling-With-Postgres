@@ -30,6 +30,10 @@ Created using [Creatly](https://app.creately.com). Sorry for the attribute stack
 
 ```ARTIST_ID``` is a duplicate column in ```SONGS``` and ```ARTISTS```; this makes a more read oriented structure that is always prefered in analytics. Since the objective is to optimise analytical workflow, this structure supports our goal.
 
+All tables have been ensured to have a ```PRIMARY KEY```.
+Column datatypes and sizes have been marked as per observed business data.
+```LATITUDE``` and ```LONGITUDE``` have been capped till 5 digits accuracy after the decimal point to ensure ```~cm accuracy```. ([Source](https://rapidlasso.com/2019/05/06/how-many-decimal-digits-for-storing-longitude-latitude/)) 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
