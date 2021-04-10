@@ -5,6 +5,8 @@ This project is part of the Udacity Nanodegree® on Data Engineering.
 
 It aims to demonstrate database creation from a JSON store by creating appropriate database structures and populating correct data post ETL.
 
+> 🧘🏽 “Data that is loved tends to survive.” - _Kurt Bollacker_
+
 ## Core Technologies
 ![Shield](https://img.shields.io/badge/Database-Postgres-lightgrey) 
 ![Shield](https://img.shields.io/badge/Language-Python-lightgrey)
@@ -23,7 +25,6 @@ python etl.py
 The data will then be loaded to the tables created and can be tested using the ```test.ipynb``` notebook present in the repository.
 
 ## Database Architecture
-> “Data that is loved tends to survive.” - _Kurt Bollacker_
 
 ![A](https://github.com/asonthalia/Sparkify-Data-Modelling-With-Postgres/blob/472ebd15c8991b3b680bec178fd69b2dd728eb88/Images/Architecture%20copy.png)
 Created using [Creatly](https://app.creately.com). Sorry for the attribute stacking in the ```SONGPLAYS``` table, creately only allows for 60 elements in their free version!
