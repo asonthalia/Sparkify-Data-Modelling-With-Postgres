@@ -34,6 +34,13 @@ All tables have been ensured to have a ```PRIMARY KEY```.
 Column datatypes and sizes have been marked as per observed business data.
 ```LATITUDE``` and ```LONGITUDE``` have been capped till 5 digits accuracy after the decimal point to ensure ```~cm accuracy```. ([Source](https://rapidlasso.com/2019/05/06/how-many-decimal-digits-for-storing-longitude-latitude/)) 
 
+## File Dictionary
+- ```create_tables.py``` - Helps in resetting/ creating the database and the tables within.
+- ```sql_queries.py``` - Queries to support resetting/ creating/ dropping and 'upsertion' of tables and data.
+-  ```etl.py``` - Performs the reading of JSON files, type conversions where necessary and pumping into Postgres.
+-  ```etl.ipynb``` - Interactive version of etl.py
+- ```test.ipynb``` - Notebook to check if the data was correctly loaded.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
